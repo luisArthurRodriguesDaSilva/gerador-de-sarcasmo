@@ -8,6 +8,8 @@ char frase[5000];
 void transformador();
 
 int main(){
+	
+	cout<<"GERADOR DE SARCASMO 4K FULL HD"<<endl;
 
 	
 	setlocale(LC_ALL, "");
@@ -27,8 +29,6 @@ int main(){
 			cout << frase[i] << ' ';
 		}
 
-
-		cout << "á" << endl;
 		
 		cout << endl;
 
