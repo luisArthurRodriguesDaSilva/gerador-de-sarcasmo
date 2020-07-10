@@ -9,7 +9,10 @@ void transformador();
 
 int main(){
 
+	
+	setlocale(LC_ALL, "");
 	while (1) {
+		
 		y = 1;
 		tamanho = 0;
 		z = 1;
@@ -25,8 +28,8 @@ int main(){
 		}
 
 
-
-		cout << "marcador2";
+		cout << "á" << endl;
+		
 		cout << endl;
 
 		//limpador
@@ -42,9 +45,11 @@ void transformador() {
 		switch (frase[y])
 		{
 		case 'a': frase[y] = 'A'; break;
+		case 'á': frase[y] = 'Á'; break;
 		case 'b': frase[y] = 'B'; break;
 		case 'c': frase[y] = 'C'; break;
 		case 'd': frase[y] = 'D'; break;
+		case 'é': frase[y] = 'É'; break;
 		case 'e': frase[y] = 'E'; break;
 		case 'f': frase[y] = 'F'; break;
 		case 'g': frase[y] = 'G'; break;
